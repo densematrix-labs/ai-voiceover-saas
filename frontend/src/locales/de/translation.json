@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "title": "Multi-Provider AI Voiceover Studio",
+    "subtitle": "Über 800 AI-Stimmen von führenden Anbietern. Eine Plattform."
+  },
+  "stats": {
+    "voices": "AI-Stimmen",
+    "languages": "Sprachen",
+    "providers": "Anbieter"
+  },
+  "studio": {
+    "selectVoice": "Stimme wählen",
+    "inputText": "Ihr Text",
+    "placeholder": "Geben Sie den Text ein, den Sie in Sprache umwandeln möchten...",
+    "noVoice": "Keine Stimme ausgewählt",
+    "speed": "Geschwindigkeit",
+    "generate": "Voiceover erstellen",
+    "generating": "Wird erstellt...",
+    "buyMore": "Mehr Token kaufen",
+    "previewing": "Vorschau...",
+    "previewVoice": "Stimme anhören",
+    "result": "Ihr Voiceover",
+    "download": "MP3 herunterladen"
+  },
+  "filter": {
+    "allProviders": "Alle Anbieter",
+    "allLanguages": "Alle Sprachen"
+  },
+  "cta": {
+    "freeTrial": "Kostenlos testen",
+    "getPlan": "Plan kaufen, um fortzufahren →"
+  },
+  "tokens": {
+    "remaining": "Token übrig",
+    "freeAvailable": "Kostenlose Testversion verfügbar"
+  },
+  "errors": {
+    "noTokens": "Keine Token mehr übrig. Bitte kaufen Sie mehr, um fortzufahren."
+  },
+  "pricing": {
+    "title": "Einfache, nutzungsbasierte Preise",
+    "subtitle": "Keine Abonnements. Kaufen Sie Token, wenn Sie sie brauchen.",
+    "popular": "Beliebteste Wahl",
+    "generations": "Voiceover-Generierungen",
+    "allVoices": "Alle 800+ Stimmen",
+    "download": "Unbegrenzte Downloads",
+    "commercial": "Kommerzielle Nutzungslizenz",
+    "buy": "Jetzt kaufen",
+    "processing": "Wird verarbeitet...",
+    "whyChoose": "Warum VoiceForge AI wählen?"
+  },
+  "features": {
+    "multiProvider": "Multi-Provider",
+    "multiProviderDesc": "Zugriff auf Stimmen von OpenAI, Edge TTS und mehr",
+    "languages": "50+ Sprachen",
+    "languagesDesc": "Muttersprachler für globale Inhalte",
+    "fast": "Blitzschnell",
+    "fastDesc": "Voiceovers in Sekunden erstellen",
+    "noSubscription": "Kein Abonnement",
+    "noSubscriptionDesc": "Zahlen Sie nur, was Sie nutzen"
+  },
+  "success": {
+    "processing": "Zahlung wird verarbeitet...",
+    "wait": "Bitte warten Sie, während wir Ihren Kauf bestätigen.",
+    "title": "Zahlung erfolgreich!",
+    "subtitle": "Ihre Token wurden Ihrem Konto hinzugefügt.",
+    "tokensAvailable": "Token verfügbar",
+    "startCreating": "Jetzt erstellen"
+  },
+  "footer": {
+    "powered": "Powered by",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "contact": "Kontakt"
+  }
+}

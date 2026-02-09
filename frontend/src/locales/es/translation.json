@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "title": "Estudio de Voiceover AI Multi-Proveedor",
+    "subtitle": "Más de 800 voces AI de los mejores proveedores. Una sola plataforma."
+  },
+  "stats": {
+    "voices": "Voces AI",
+    "languages": "Idiomas",
+    "providers": "Proveedores"
+  },
+  "studio": {
+    "selectVoice": "Seleccionar voz",
+    "inputText": "Tu texto",
+    "placeholder": "Ingresa el texto que deseas convertir a voz...",
+    "noVoice": "Ninguna voz seleccionada",
+    "speed": "Velocidad",
+    "generate": "Generar voiceover",
+    "generating": "Generando...",
+    "buyMore": "Comprar más tokens",
+    "previewing": "Vista previa...",
+    "previewVoice": "Escuchar voz",
+    "result": "Tu voiceover",
+    "download": "Descargar MP3"
+  },
+  "filter": {
+    "allProviders": "Todos los proveedores",
+    "allLanguages": "Todos los idiomas"
+  },
+  "cta": {
+    "freeTrial": "Prueba gratis",
+    "getPlan": "Comprar un plan para continuar →"
+  },
+  "tokens": {
+    "remaining": "tokens restantes",
+    "freeAvailable": "Prueba gratuita disponible"
+  },
+  "errors": {
+    "noTokens": "No quedan tokens. Por favor, compra más para continuar."
+  },
+  "pricing": {
+    "title": "Precios simples, pago por uso",
+    "subtitle": "Sin suscripciones. Compra tokens cuando los necesites.",
+    "popular": "Más popular",
+    "generations": "generaciones de voiceover",
+    "allVoices": "Todas las 800+ voces",
+    "download": "Descargas ilimitadas",
+    "commercial": "Licencia de uso comercial",
+    "buy": "Comprar ahora",
+    "processing": "Procesando...",
+    "whyChoose": "¿Por qué elegir VoiceForge AI?"
+  },
+  "features": {
+    "multiProvider": "Multi-Proveedor",
+    "multiProviderDesc": "Acceso a voces de OpenAI, Edge TTS y más",
+    "languages": "50+ Idiomas",
+    "languagesDesc": "Hablantes nativos para contenido global",
+    "fast": "Ultra rápido",
+    "fastDesc": "Genera voiceovers en segundos",
+    "noSubscription": "Sin suscripción",
+    "noSubscriptionDesc": "Paga solo por lo que usas"
+  },
+  "success": {
+    "processing": "Procesando pago...",
+    "wait": "Por favor espera mientras confirmamos tu compra.",
+    "title": "¡Pago exitoso!",
+    "subtitle": "Tus tokens han sido añadidos a tu cuenta.",
+    "tokensAvailable": "tokens disponibles",
+    "startCreating": "Empezar a crear"
+  },
+  "footer": {
+    "powered": "Desarrollado por",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "contact": "Contacto"
+  }
+}

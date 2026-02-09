@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "title": "多服务商 AI 配音工作室",
+    "subtitle": "来自顶级服务商的 800+ AI 语音，一站式平台"
+  },
+  "stats": {
+    "voices": "AI 语音",
+    "languages": "种语言",
+    "providers": "家服务商"
+  },
+  "studio": {
+    "selectVoice": "选择语音",
+    "inputText": "输入文本",
+    "placeholder": "输入您想要转换为语音的文本...",
+    "noVoice": "未选择语音",
+    "speed": "语速",
+    "generate": "生成配音",
+    "generating": "生成中...",
+    "buyMore": "购买更多次数",
+    "previewing": "预览中...",
+    "previewVoice": "试听语音",
+    "result": "您的配音",
+    "download": "下载 MP3"
+  },
+  "filter": {
+    "allProviders": "所有服务商",
+    "allLanguages": "所有语言"
+  },
+  "cta": {
+    "freeTrial": "免费试用",
+    "getPlan": "购买套餐继续使用 →"
+  },
+  "tokens": {
+    "remaining": "次剩余",
+    "freeAvailable": "可免费试用"
+  },
+  "errors": {
+    "noTokens": "次数已用完，请购买更多次数继续使用。"
+  },
+  "pricing": {
+    "title": "简单透明，按需付费",
+    "subtitle": "无需订阅，需要时购买即可。",
+    "popular": "最受欢迎",
+    "generations": "次配音生成",
+    "allVoices": "全部 800+ 语音",
+    "download": "无限下载",
+    "commercial": "商业使用授权",
+    "buy": "立即购买",
+    "processing": "处理中...",
+    "whyChoose": "为什么选择 VoiceForge AI？"
+  },
+  "features": {
+    "multiProvider": "多服务商",
+    "multiProviderDesc": "接入 OpenAI、Edge TTS 等多家语音服务",
+    "languages": "50+ 种语言",
+    "languagesDesc": "母语配音，覆盖全球内容",
+    "fast": "极速生成",
+    "fastDesc": "几秒内生成配音",
+    "noSubscription": "无需订阅",
+    "noSubscriptionDesc": "用多少付多少"
+  },
+  "success": {
+    "processing": "处理支付中...",
+    "wait": "请稍候，我们正在确认您的购买。",
+    "title": "支付成功！",
+    "subtitle": "次数已添加到您的账户。",
+    "tokensAvailable": "次可用",
+    "startCreating": "开始创作"
+  },
+  "footer": {
+    "powered": "技术支持",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "contact": "联系我们"
+  }
+}

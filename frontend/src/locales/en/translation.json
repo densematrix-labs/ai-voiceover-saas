@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "title": "Multi-Provider AI Voiceover Studio",
+    "subtitle": "800+ AI voices from leading providers. One platform."
+  },
+  "stats": {
+    "voices": "AI Voices",
+    "languages": "Languages",
+    "providers": "Providers"
+  },
+  "studio": {
+    "selectVoice": "Select Voice",
+    "inputText": "Your Text",
+    "placeholder": "Enter the text you want to convert to speech...",
+    "noVoice": "No voice selected",
+    "speed": "Speed",
+    "generate": "Generate Voiceover",
+    "generating": "Generating...",
+    "buyMore": "Buy More Tokens",
+    "previewing": "Previewing...",
+    "previewVoice": "Preview Voice",
+    "result": "Your Voiceover",
+    "download": "Download MP3"
+  },
+  "filter": {
+    "allProviders": "All Providers",
+    "allLanguages": "All Languages"
+  },
+  "cta": {
+    "freeTrial": "Free Trial",
+    "getPlan": "Get a plan to continue →"
+  },
+  "tokens": {
+    "remaining": "tokens left",
+    "freeAvailable": "Free trial available"
+  },
+  "errors": {
+    "noTokens": "No tokens remaining. Please purchase more to continue."
+  },
+  "pricing": {
+    "title": "Simple, Pay-as-you-go Pricing",
+    "subtitle": "No subscriptions. Buy tokens when you need them.",
+    "popular": "Most Popular",
+    "generations": "voiceover generations",
+    "allVoices": "All 800+ voices",
+    "download": "Unlimited downloads",
+    "commercial": "Commercial use license",
+    "buy": "Buy Now",
+    "processing": "Processing...",
+    "whyChoose": "Why Choose VoiceForge AI?"
+  },
+  "features": {
+    "multiProvider": "Multi-Provider",
+    "multiProviderDesc": "Access voices from OpenAI, Edge TTS, and more",
+    "languages": "50+ Languages",
+    "languagesDesc": "Native speakers for global content",
+    "fast": "Lightning Fast",
+    "fastDesc": "Generate voiceovers in seconds",
+    "noSubscription": "No Subscription",
+    "noSubscriptionDesc": "Pay only for what you use"
+  },
+  "success": {
+    "processing": "Processing Payment...",
+    "wait": "Please wait while we confirm your purchase.",
+    "title": "Payment Successful!",
+    "subtitle": "Your tokens have been added to your account.",
+    "tokensAvailable": "tokens available",
+    "startCreating": "Start Creating"
+  },
+  "footer": {
+    "powered": "Powered by",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact"
+  }
+}

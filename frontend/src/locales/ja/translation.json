@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "title": "マルチプロバイダーAIボイススタジオ",
+    "subtitle": "トップサービスの800以上のAI音声を一つのプラットフォームで"
+  },
+  "stats": {
+    "voices": "AI音声",
+    "languages": "言語",
+    "providers": "プロバイダー"
+  },
+  "studio": {
+    "selectVoice": "音声を選択",
+    "inputText": "テキスト入力",
+    "placeholder": "音声に変換したいテキストを入力してください...",
+    "noVoice": "音声未選択",
+    "speed": "速度",
+    "generate": "ナレーション生成",
+    "generating": "生成中...",
+    "buyMore": "追加購入",
+    "previewing": "プレビュー中...",
+    "previewVoice": "音声を試聴",
+    "result": "生成されたナレーション",
+    "download": "MP3をダウンロード"
+  },
+  "filter": {
+    "allProviders": "すべてのプロバイダー",
+    "allLanguages": "すべての言語"
+  },
+  "cta": {
+    "freeTrial": "無料お試し",
+    "getPlan": "プランを購入して続ける →"
+  },
+  "tokens": {
+    "remaining": "回残り",
+    "freeAvailable": "無料お試し可能"
+  },
+  "errors": {
+    "noTokens": "残り回数がありません。続けるには追加購入してください。"
+  },
+  "pricing": {
+    "title": "シンプルな従量課金",
+    "subtitle": "サブスクなし。必要な時に必要な分だけ。",
+    "popular": "人気No.1",
+    "generations": "回のナレーション生成",
+    "allVoices": "800以上の全音声",
+    "download": "無制限ダウンロード",
+    "commercial": "商用利用ライセンス",
+    "buy": "今すぐ購入",
+    "processing": "処理中...",
+    "whyChoose": "VoiceForge AIを選ぶ理由"
+  },
+  "features": {
+    "multiProvider": "マルチプロバイダー",
+    "multiProviderDesc": "OpenAI、Edge TTSなど複数のサービスを利用可能",
+    "languages": "50以上の言語",
+    "languagesDesc": "ネイティブの音声でグローバルコンテンツに対応",
+    "fast": "超高速生成",
+    "fastDesc": "数秒でナレーションを生成",
+    "noSubscription": "サブスク不要",
+    "noSubscriptionDesc": "使った分だけお支払い"
+  },
+  "success": {
+    "processing": "お支払い処理中...",
+    "wait": "購入を確認しています。しばらくお待ちください。",
+    "title": "お支払い完了！",
+    "subtitle": "トークンがアカウントに追加されました。",
+    "tokensAvailable": "回利用可能",
+    "startCreating": "作成を開始"
+  },
+  "footer": {
+    "powered": "Powered by",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "contact": "お問い合わせ"
+  }
+}

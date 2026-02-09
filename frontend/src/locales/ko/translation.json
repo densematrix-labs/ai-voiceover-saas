@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "title": "멀티 프로바이더 AI 보이스오버 스튜디오",
+    "subtitle": "최고의 서비스 제공업체가 제공하는 800개 이상의 AI 음성을 한 플랫폼에서"
+  },
+  "stats": {
+    "voices": "AI 음성",
+    "languages": "개 언어",
+    "providers": "개 서비스"
+  },
+  "studio": {
+    "selectVoice": "음성 선택",
+    "inputText": "텍스트 입력",
+    "placeholder": "음성으로 변환할 텍스트를 입력하세요...",
+    "noVoice": "음성 미선택",
+    "speed": "속도",
+    "generate": "내레이션 생성",
+    "generating": "생성 중...",
+    "buyMore": "추가 구매",
+    "previewing": "미리듣기 중...",
+    "previewVoice": "음성 미리듣기",
+    "result": "생성된 내레이션",
+    "download": "MP3 다운로드"
+  },
+  "filter": {
+    "allProviders": "모든 서비스",
+    "allLanguages": "모든 언어"
+  },
+  "cta": {
+    "freeTrial": "무료 체험",
+    "getPlan": "플랜 구매하기 →"
+  },
+  "tokens": {
+    "remaining": "회 남음",
+    "freeAvailable": "무료 체험 가능"
+  },
+  "errors": {
+    "noTokens": "남은 횟수가 없습니다. 계속 사용하려면 추가 구매하세요."
+  },
+  "pricing": {
+    "title": "간단한 종량제 요금",
+    "subtitle": "구독 없이 필요할 때만 구매하세요.",
+    "popular": "인기 상품",
+    "generations": "회 내레이션 생성",
+    "allVoices": "800개 이상 모든 음성",
+    "download": "무제한 다운로드",
+    "commercial": "상업적 사용 라이선스",
+    "buy": "지금 구매",
+    "processing": "처리 중...",
+    "whyChoose": "VoiceForge AI를 선택하는 이유"
+  },
+  "features": {
+    "multiProvider": "멀티 프로바이더",
+    "multiProviderDesc": "OpenAI, Edge TTS 등 여러 서비스 이용 가능",
+    "languages": "50개 이상 언어",
+    "languagesDesc": "원어민 음성으로 글로벌 콘텐츠 지원",
+    "fast": "초고속 생성",
+    "fastDesc": "몇 초 만에 내레이션 생성",
+    "noSubscription": "구독 불필요",
+    "noSubscriptionDesc": "사용한 만큼만 결제"
+  },
+  "success": {
+    "processing": "결제 처리 중...",
+    "wait": "구매를 확인하고 있습니다. 잠시만 기다려주세요.",
+    "title": "결제 완료!",
+    "subtitle": "토큰이 계정에 추가되었습니다.",
+    "tokensAvailable": "회 사용 가능",
+    "startCreating": "생성 시작"
+  },
+  "footer": {
+    "powered": "Powered by",
+    "privacy": "개인정보 처리방침",
+    "terms": "이용약관",
+    "contact": "문의하기"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "title": "Studio Voiceover AI Multi-Fournisseurs",
+    "subtitle": "Plus de 800 voix AI des meilleurs fournisseurs. Une seule plateforme."
+  },
+  "stats": {
+    "voices": "Voix AI",
+    "languages": "Langues",
+    "providers": "Fournisseurs"
+  },
+  "studio": {
+    "selectVoice": "Choisir une voix",
+    "inputText": "Votre texte",
+    "placeholder": "Entrez le texte que vous souhaitez convertir en voix...",
+    "noVoice": "Aucune voix sélectionnée",
+    "speed": "Vitesse",
+    "generate": "Générer le voiceover",
+    "generating": "Génération...",
+    "buyMore": "Acheter plus de tokens",
+    "previewing": "Aperçu...",
+    "previewVoice": "Écouter la voix",
+    "result": "Votre voiceover",
+    "download": "Télécharger MP3"
+  },
+  "filter": {
+    "allProviders": "Tous les fournisseurs",
+    "allLanguages": "Toutes les langues"
+  },
+  "cta": {
+    "freeTrial": "Essai gratuit",
+    "getPlan": "Acheter un forfait pour continuer →"
+  },
+  "tokens": {
+    "remaining": "tokens restants",
+    "freeAvailable": "Essai gratuit disponible"
+  },
+  "errors": {
+    "noTokens": "Plus de tokens disponibles. Veuillez en acheter pour continuer."
+  },
+  "pricing": {
+    "title": "Tarification simple, à l'usage",
+    "subtitle": "Pas d'abonnement. Achetez des tokens quand vous en avez besoin.",
+    "popular": "Le plus populaire",
+    "generations": "générations de voiceover",
+    "allVoices": "Toutes les 800+ voix",
+    "download": "Téléchargements illimités",
+    "commercial": "Licence d'utilisation commerciale",
+    "buy": "Acheter maintenant",
+    "processing": "Traitement...",
+    "whyChoose": "Pourquoi choisir VoiceForge AI ?"
+  },
+  "features": {
+    "multiProvider": "Multi-Fournisseurs",
+    "multiProviderDesc": "Accès aux voix d'OpenAI, Edge TTS et plus",
+    "languages": "50+ Langues",
+    "languagesDesc": "Locuteurs natifs pour un contenu mondial",
+    "fast": "Ultra rapide",
+    "fastDesc": "Générez des voiceovers en quelques secondes",
+    "noSubscription": "Sans abonnement",
+    "noSubscriptionDesc": "Payez uniquement ce que vous utilisez"
+  },
+  "success": {
+    "processing": "Traitement du paiement...",
+    "wait": "Veuillez patienter pendant que nous confirmons votre achat.",
+    "title": "Paiement réussi !",
+    "subtitle": "Vos tokens ont été ajoutés à votre compte.",
+    "tokensAvailable": "tokens disponibles",
+    "startCreating": "Commencer à créer"
+  },
+  "footer": {
+    "powered": "Propulsé par",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "contact": "Contact"
+  }
+}

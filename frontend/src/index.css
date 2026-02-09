@@ -1,0 +1,197 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --studio-bg: #0a0a0f;
+  --studio-panel: #14141f;
+  --studio-border: #2a2a3f;
+  --neon-cyan: #00f5ff;
+  --neon-pink: #ff00aa;
+  --neon-green: #00ff88;
+  --neon-orange: #ff8800;
+  --warm: #ffcc66;
+  --muted: #6b6b8a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--studio-bg);
+  color: #ffffff;
+  font-family: 'IBM Plex Sans', system-ui, sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Retro CRT scan line effect */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.1) 0px,
+    rgba(0, 0, 0, 0.1) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.3;
+}
+
+/* Neon glow text */
+.neon-text {
+  text-shadow: 
+    0 0 10px currentColor,
+    0 0 20px currentColor,
+    0 0 40px currentColor;
+}
+
+/* Retro button */
+.btn-retro {
+  @apply px-6 py-3 font-display text-xl uppercase tracking-wider;
+  @apply border-2 border-studio-neon-cyan bg-transparent text-studio-neon-cyan;
+  @apply transition-all duration-200 ease-out;
+  box-shadow: 
+    0 0 10px rgba(0, 245, 255, 0.3),
+    inset 0 0 10px rgba(0, 245, 255, 0.1);
+}
+
+.btn-retro:hover {
+  @apply bg-studio-neon-cyan/20;
+  box-shadow: 
+    0 0 20px rgba(0, 245, 255, 0.5),
+    inset 0 0 20px rgba(0, 245, 255, 0.2);
+}
+
+.btn-retro:active {
+  transform: scale(0.98);
+}
+
+.btn-retro:disabled {
+  @apply opacity-50 cursor-not-allowed;
+  box-shadow: none;
+}
+
+/* Panel styling */
+.panel {
+  @apply bg-studio-panel border border-studio-border rounded-lg;
+  box-shadow: 
+    0 4px 20px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+/* VU Meter bars */
+.vu-bar {
+  @apply w-2 bg-studio-neon-green rounded-full;
+  animation: wave 1.2s ease-in-out infinite;
+}
+
+.vu-bar:nth-child(1) { animation-delay: 0s; }
+.vu-bar:nth-child(2) { animation-delay: 0.1s; }
+.vu-bar:nth-child(3) { animation-delay: 0.2s; }
+.vu-bar:nth-child(4) { animation-delay: 0.3s; }
+.vu-bar:nth-child(5) { animation-delay: 0.4s; }
+
+/* Waveform visualization */
+.waveform {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  height: 40px;
+}
+
+.waveform-bar {
+  width: 3px;
+  background: linear-gradient(to top, var(--neon-cyan), var(--neon-pink));
+  border-radius: 2px;
+  animation: wave 0.8s ease-in-out infinite;
+}
+
+/* Voice card */
+.voice-card {
+  @apply panel p-4 cursor-pointer transition-all duration-200;
+}
+
+.voice-card:hover {
+  @apply border-studio-neon-cyan/50;
+  box-shadow: 0 0 15px rgba(0, 245, 255, 0.2);
+}
+
+.voice-card.selected {
+  @apply border-studio-neon-cyan;
+  box-shadow: 0 0 20px rgba(0, 245, 255, 0.4);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--studio-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--studio-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted);
+}
+
+/* Input styling */
+.input-retro {
+  @apply w-full px-4 py-3 bg-studio-bg border border-studio-border rounded-lg;
+  @apply text-white font-body placeholder-studio-muted;
+  @apply focus:outline-none focus:border-studio-neon-cyan;
+  @apply transition-colors duration-200;
+}
+
+.input-retro:focus {
+  box-shadow: 0 0 15px rgba(0, 245, 255, 0.2);
+}
+
+/* Select styling */
+.select-retro {
+  @apply input-retro appearance-none cursor-pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%236b6b8a'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 16px;
+  padding-right: 40px;
+}
+
+/* Range slider */
+input[type="range"] {
+  @apply w-full h-2 bg-studio-border rounded-lg appearance-none cursor-pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  @apply w-4 h-4 bg-studio-neon-cyan rounded-full appearance-none;
+  box-shadow: 0 0 10px rgba(0, 245, 255, 0.5);
+}
+
+/* Audio player */
+audio {
+  @apply w-full;
+}
+
+audio::-webkit-media-controls-panel {
+  background: var(--studio-panel);
+}
